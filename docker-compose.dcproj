@@ -14,5 +14,9 @@
     </None>
     <None Include="docker-compose.yml" />
     <None Include=".dockerignore" />
+    <None Include="Nginx\Dockerfile" />
+    <None Include="Nginx\nginx.conf" />
+    <None Include="Nginx\proxy.conf" />
+    <None Include="Nginx\reverse-proxy.conf" />
   </ItemGroup>
 </Project>
