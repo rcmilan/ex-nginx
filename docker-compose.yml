@@ -20,8 +20,8 @@ services:
       - nginx-network
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-    ports:
-      - 20001:80
+    # ports:
+    #   - 20001:80
 
 networks:
   nginx-network:
