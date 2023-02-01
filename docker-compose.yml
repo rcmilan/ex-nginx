@@ -21,7 +21,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     # ports:
-    #   - 20001:80
+    #   - 20001:80 # ! Removendo para não expor portas da API
 
 networks:
   nginx-network:
